@@ -5,4 +5,4 @@ RUN npm install -g semantic-release-cli
 
 WORKDIR /usr/src/app
 VOLUME ["/usr/src/app"]
-ENTRYPOINT ["/bin/bash", "-c", "semantic-release-cli"]
+ENTRYPOINT ["semantic-release-cli"]
